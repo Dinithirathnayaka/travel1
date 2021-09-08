@@ -1,0 +1,161 @@
+body {
+  padding: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  opacity: 10;
+}
+
+nav {
+  z-index: 2;
+  background-color: #ffffff;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 80px;
+  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  font-weight: bold;
+  font-size: 14px;
+  color: #005eff;
+}
+
+nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav .logo i {
+  padding-right: 10px;
+}
+
+nav .logo .home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 250px;
+}
+
+nav .logo .home h4 {
+  padding-right: 30px;
+}
+
+nav .login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav .login i {
+  padding-right: 3px;
+  padding-bottom: 20px;
+}
+
+.back img {
+  width: 100%;
+  height: 650px;
+  opacity: 0.2;
+}
+
+.main .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  background-color: #ffffff;
+  height: 550px;
+  width: 1050px;
+  margin-left: 230px;
+  margin-right: 230px;
+  margin-top: -590px;
+  z-index: 8;
+  opacity: 0.8;
+}
+
+.main .box .left {
+  background-color: #005eff;
+  width: 525px;
+  height: 550px;
+}
+
+.main .box .left img {
+  position: relative;
+  margin-top: -100px;
+}
+
+.main .box .left img .image3 {
+  height: 550px;
+}
+
+.main .box .right {
+  background-color: #ffffff;
+  width: 525px;
+  height: 550px;
+  text-align: center;
+}
+
+.main .box p {
+  padding-bottom: 0;
+  font-size: 40px;
+  color: #005eff;
+  font-weight: bolt;
+}
+
+.main .box h2 {
+  color: #005eff;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.main .box h3 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.main .box h5 {
+  opacity: 0.8;
+}
+
+.main .box button {
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  margin-top: 70px;
+}
+
+.main .box .social {
+  padding-top: 450px;
+  padding-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 15px;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */

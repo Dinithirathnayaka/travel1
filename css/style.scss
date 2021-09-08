@@ -1,0 +1,167 @@
+$colorW:#ffffff;
+$cOlorP:#cc0099;
+$colorX:#005eff;
+body{
+  padding:0;
+}
+
+*{
+    box-sizing: border-box;
+    
+}
+img{
+    width: 100%;
+    height:auto;
+    opacity:10;
+}
+
+nav{
+    z-index: 2;
+    background-color: $colorW;
+    top:0;
+    display:flex;
+    justify-content: space-between;
+    height:80px;
+    padding:20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    color:$colorX;
+
+    .logo{
+        display: flex;
+        justify-content: space-between;
+
+        i{
+            padding-right: 10px;
+           
+           
+        }
+        .home{
+            display: flex;
+            justify-content: space-between;
+            margin-left: 250px;
+
+            h4{
+                padding-right: 30px;
+            }
+
+        }
+    }
+    .login{
+        display:flex;
+        justify-content: space-between;
+        
+        i{
+            padding-right: 3px;
+            padding-bottom: 20px;
+        }
+    }
+    
+    
+}
+
+.back{
+    img{
+        width:100%;
+        height:650px;
+        opacity:0.2;
+        .image2{
+            
+        }
+        
+}
+
+   
+  
+}
+
+.main{
+    .box{
+        display:flex;
+        position:relative;
+        background-color:#ffffff;
+        height:550px;
+        width:1050px;
+        margin-left: 230px;
+        margin-right: 230px;
+        margin-top: -590px;
+        z-index: 8;
+        opacity:0.8;
+       
+        .left{
+            background-color: $colorX;
+            width:525px;
+            height:550px;
+
+            img{
+                position:relative;
+                margin-top: -100px;
+                .image3{
+                    height:550px;
+                   
+                  
+                }
+               
+            }
+          
+            
+        }
+        .right{
+           background-color:#ffffff;
+            width:525px;
+            height:550px;
+            text-align: center
+            
+        }
+        p{
+            
+            padding-bottom: 0;
+            font-size: 40px;
+            color:#005eff;
+            font-weight: bolt;
+        }
+        
+        h2{
+          
+            color: #005eff;
+            font-weight: bold;
+            font-size: 30px;
+
+        }
+        h3{
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        h4{
+
+        }
+        h5{
+            opacity: 0.8;
+        }
+
+        button{
+            border-radius: 10px;
+            width: 100px;
+            height:30px;
+            margin-top: 70px;
+            
+
+        }
+
+        .social{
+            padding-top:450px ;
+            padding-right: 10px;
+            display: flex;
+            padding-left:15px;
+            position:relative;
+            justify-content: center;
+            
+        }
+    }
+}
+
+
+   
