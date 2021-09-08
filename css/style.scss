@@ -99,8 +99,11 @@ nav{
             img{
                 position:relative;
                 margin-top: -100px;
+               
                 .image3{
                     height:550px;
+                    width: 700px;
+
                    
                   
                 }
@@ -135,33 +138,26 @@ nav{
             margin-top: 20px;
             font-size: 25px;
         }
-        h4{
-
-        }
+      
         h5{
             opacity: 0.8;
         }
 
         button{
             border-radius: 10px;
-            width: 105px;
-            height:30px;
+            width: 110px;
+            height:35px;
             margin-top: 70px;
-            
+            background-color: #005eff;
+            color: #ffffff;
+            text-align: center;
 
         }
 
-        .social{
-            padding-top:450px ;
-            padding-right: 10px;
-            display: flex;
-            padding-left:15px;
-            position:relative;
-            justify-content: center;
-            
-        }
+   
     }
 }
+
 
 
    

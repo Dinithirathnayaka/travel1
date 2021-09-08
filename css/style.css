@@ -108,6 +108,7 @@ nav .login i {
 
 .main .box .left img .image3 {
   height: 550px;
+  width: 700px;
 }
 
 .main .box .right {
@@ -132,7 +133,7 @@ nav .login i {
 
 .main .box h3 {
   margin-top: 20px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .main .box h5 {
@@ -141,21 +142,11 @@ nav .login i {
 
 .main .box button {
   border-radius: 10px;
-  width: 100px;
-  height: 30px;
+  width: 110px;
+  height: 35px;
   margin-top: 70px;
-}
-
-.main .box .social {
-  padding-top: 450px;
-  padding-right: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-left: 15px;
-  position: relative;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  background-color: #005eff;
+  color: #ffffff;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
